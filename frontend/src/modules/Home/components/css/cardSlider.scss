@@ -1,0 +1,23 @@
+.cardSliderWrapper {
+  .slick-prev {
+    left: 3% !important;
+    z-index: 4;
+  }
+  .slick-next {
+    right: 4% !important;
+    z-index: 4;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
+    line-height: 0;
+  }
+  .container-custom {
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    .ui.card {
+      width: 270px;
+    }
+  }
+}

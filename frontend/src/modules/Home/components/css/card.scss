@@ -1,0 +1,14 @@
+.cardWrapper {
+  img {
+    cursor: pointer;
+  }
+  div.content {
+    .header {
+      font-size: 1rem !important;
+    }
+  }
+  .cardFooter {
+    color: #0aabd9;
+    font-weight: 600;
+  }
+}

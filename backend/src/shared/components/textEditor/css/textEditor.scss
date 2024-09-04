@@ -1,0 +1,18 @@
+@import "../../../../styles/variables";
+
+.textEditorWrapper {
+  &.error {
+    .ql-toolbar.ql-snow {
+      border-color: $errorFieldBorderColor;
+    }
+    .ql-container.ql-snow {
+      border-color: $errorFieldBorderColor;
+    }
+    .ql-editor {
+      background-color: $errorFieldBackgroundColor;
+    }
+    .myErrorLabel {
+      float: left;
+    }
+  }
+}

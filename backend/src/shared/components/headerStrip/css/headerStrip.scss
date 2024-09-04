@@ -1,0 +1,64 @@
+@import "../../../../styles/variables";
+
+.headerStrip-container {
+  .headerStrip {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-image: url("../../../../assets/images/auto_banner.jpg");
+    background-position: top right;
+    background-size: cover;
+
+    .heading {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      color: #ffffffd9;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    .custom-breadcrumb {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+
+      font-size: 20px;
+      padding-top: 48px;
+
+      .ui.breadcrumb a {
+        color: #ffffffd9;
+      }
+
+      .ui.breadcrumb .divider {
+        color: #434343;
+      }
+    }
+
+    .box {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      bottom: -29px;
+      min-height: 56px;
+      background-color: white;
+      box-shadow: 2px 1px 6px #888888;
+
+      div {
+        padding-top: 9px;
+        padding-left: 12px;
+      }
+      .guideline-btn {
+        background-color: $voiletColor;
+        margin-right: 20px;
+        margin-top: 2px;
+      }
+      span {
+        color: red;
+      }
+    }
+  }
+}

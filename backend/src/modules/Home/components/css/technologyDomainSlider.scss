@@ -1,0 +1,15 @@
+.technologyDomainWrapper {
+  background-color: #f5f5f5;
+  padding: 20px 50px 50px 50px;
+  font-size: 16px;
+
+  // adjest slider css making image and content at center
+  .slick-slider {
+    .slick-slide {
+      text-align: center;
+    }
+    img {
+      margin: 0 auto;
+    }
+  }
+}

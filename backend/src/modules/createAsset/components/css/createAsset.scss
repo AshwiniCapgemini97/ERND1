@@ -1,0 +1,22 @@
+@import "../../../../styles//variables.scss";
+
+.createAsset-wrapper {
+  .main-container {
+    padding-top: 50px;
+
+    .ui.form .fields {
+      margin-bottom: 10px;
+    }
+    .uploadLogo {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .submit-btn-footer {
+      width: 100%;
+      padding-top: 15px;
+      padding-right: 8px;
+      text-align: right;
+    }
+  }
+}

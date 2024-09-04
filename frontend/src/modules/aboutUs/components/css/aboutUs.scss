@@ -1,0 +1,17 @@
+@import "../../../../styles//variables.scss";
+
+.aboutUs-wrapper {
+  .main-container {
+    padding-top: 26px;
+    padding-bottom: 50px;
+
+    .techSupportContact {
+      padding-top: 20px;
+    }
+
+    .about-content {
+      font-size: 16px;
+      line-height: 2.2rem;
+    }
+  }
+}

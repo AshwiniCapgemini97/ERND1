@@ -1,0 +1,14 @@
+@import "../../../../styles//variables.scss";
+
+.assetReport-wrapper {
+  .main-container {
+    .stickyNotification {
+      position: absolute;
+      background-color: #2e7d32;
+      color: white;
+      .icon {
+        font-size: 20px !important;
+      }
+    }
+  }
+}

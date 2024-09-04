@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.header-main {
+  height: 64px;
+
+  .cg_logo {
+    height: 34px;
+    width: 161px;
+    margin-top: 17px;
+  }
+  .search-asset-header {
+    margin-left: 10px;
+  }
+  .logo_beta {
+    height: 40px;
+    margin-left: 24px;
+    margin-top: 13px;
+  }
+  .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless)
+    > .container
+    > .item:not(.right):not(.borderless):first-child {
+    border-left: none;
+  }
+
+  .item:before {
+    background: none;
+  }
+
+  .headerMainMenu {
+    display: flex;
+    align-items: center;
+
+    i.user {
+      margin-top: 10px;
+      font-size: 2.2rem !important; /* Increase font size (adjust as needed) */
+    }
+  }
+
+  // custom css for header menu
+  .ui.secondary.menu .active.item:hover,
+  .ui.secondary.menu .active.item {
+    background-color: $voiletColor;
+    color: white;
+  }
+}

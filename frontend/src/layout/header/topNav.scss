@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+
+.topNavWrapper {
+  padding-top: 13px;
+  padding-bottom: 13px;
+
+  .cg_logo {
+    height: 34px;
+    width: 161px;
+    margin-top: 5px;
+  }
+
+  .searchTextbox {
+    margin-left: 25px;
+  }
+
+  .logo_beta {
+    height: 40px;
+    margin-left: 24px;
+  }
+
+  // custom css for header menu
+  .ui.secondary.menu .active.item:hover,
+  .ui.secondary.menu .active.item {
+    background-color: $voiletColor;
+    color: white;
+  }
+
+  .profileMenu {
+    .myProfile {
+      padding: 0;
+      // profile icon CSS
+      & > :first-child {
+        font-size: 40px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .searchTextbox {
+      margin-left: 0;
+    }
+    .searchTextbox,
+    .logo_beta {
+      display: none;
+    }
+    .profileMenu {
+      .myProfile {
+        padding: unset;
+        // profile icon CSS
+        & > :first-child {
+          font-size: unset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../../../styles//variables.scss";
+
+.dashboard-wrapper {
+  .main-container {
+    padding-bottom: 57px;
+
+    .listBox {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px;
+      font-weight: 700;
+
+      > div.content {
+        display: flex;
+
+        div.header {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .listBox1 {
+      background-color: #fff0e6;
+      color: orange;
+    }
+    .listBox2 {
+      background-color: #cceeff;
+      color: blue;
+    }
+    .listBox3 {
+      background-color: #e6ffe6;
+      color: green;
+    }
+    .listBox4 {
+      background-color: #fff0e6;
+      color: orange;
+    }
+    .listBox5 {
+      background-color: #cceeff;
+      color: blue;
+    }
+    .listBox6 {
+      background-color: #e6ffe6;
+      color: green;
+    }
+  }
+}

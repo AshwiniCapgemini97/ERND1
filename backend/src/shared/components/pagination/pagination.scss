@@ -1,0 +1,16 @@
+.paginationWrapper {
+  display: flex;
+  justify-content: end;
+
+  .pageSize {
+    padding-top: 10px;
+    font-weight: 600;
+    padding-right: 7px;
+  }
+  .selectBoxWrapper {
+    .dropdown {
+      min-width: 20px;
+      min-height: 41px;
+    }
+  }
+}

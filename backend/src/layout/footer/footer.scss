@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.footer-main {
+  width: 100%;
+  background-color: $voiletColor;
+  color: rgba(255, 255, 255, 0.8);
+
+  .footer-grid {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+
+    .footerLogo {
+      width: 100px;
+      margin-top: 3px;
+    }
+
+    .col-2 {
+      text-align: center;
+
+      .copyRight {
+        color: #bbbbbb;
+        margin-top: 6px;
+      }
+    }
+  }
+}

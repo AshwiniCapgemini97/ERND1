@@ -1,0 +1,31 @@
+import { CreateAssetDto } from './dto/create-asset.dto';
+import { UpdateAssetDto } from './dto/update-asset.dto';
+import { Repository, DataSource } from 'typeorm';
+import { Asset } from './entities/asset.entity';
+import { AssetGroup } from './entities/asset-group.entity';
+import { AssetTechnology } from './entities/asset-technology.entity';
+import { AssetSector } from './entities/asset-sector.entity';
+import { AssetsAssetType } from './entities/asset-asset-type.entity';
+import { AssetBusiness } from './entities/asset-business.entity';
+import { AssetPortfolio } from './entities/asset-portfolio.entity';
+import { AssetFile } from './entities/asset-files.entity';
+export declare class AssetsService {
+    private readonly assetRepository;
+    private readonly assetGroupRepository;
+    private readonly assetTechnologyRepository;
+    private readonly assetSectorRepository;
+    private readonly assetsAssetTypeRepository;
+    private readonly assetBusinessRepository;
+    private readonly assetPortfolioRepository;
+    private readonly assetfileRepository;
+    private readonly dataSource;
+    manager: any;
+    constructor(assetRepository: Repository<Asset>, assetGroupRepository: Repository<AssetGroup>, assetTechnologyRepository: Repository<AssetTechnology>, assetSectorRepository: Repository<AssetSector>, assetsAssetTypeRepository: Repository<AssetsAssetType>, assetBusinessRepository: Repository<AssetBusiness>, assetPortfolioRepository: Repository<AssetPortfolio>, assetfileRepository: Repository<AssetFile>, dataSource: DataSource);
+    create(createAssetDto: CreateAssetDto): Promise<any>;
+    private uploadFile;
+    findAll(filterDto: any): Promise<any>;
+    findOne(id: number): string;
+    update(id: number, updateAssetDto: UpdateAssetDto): string;
+    remove(id: number): string;
+    private handleFileUpload;
+}
